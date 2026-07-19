@@ -59,8 +59,13 @@ strategy they haven't stated.
 
 ## 9. Net Worth
 Wealth trajectory by asset class (retirement accounts, Roth, HSA, cash, real estate
-equity) across the same year range as Phase Plan. Should sum to the Cover page's total
-net worth figure in year 1.
+equity, and an "Other Assets" line for anything else the person mentioned — gold or
+other precious metals, a pension, a business interest, cryptocurrency, collectibles)
+across the same year range as Phase Plan. Should sum to the Cover page's total net
+worth figure in year 1. Always ask about other assets before finalizing this tab (see
+SKILL.md Step 1) — a single catch-all row is usually enough unless the person wants
+one of these tracked with its own growth/income assumptions, in which case give it its
+own row or, for something recurring like a pension, its own line on Phase Plan too.
 
 ## 10. Mortgage Schedule
 If there are multiple mortgages, one row per loan with balance, payment, payoff date,

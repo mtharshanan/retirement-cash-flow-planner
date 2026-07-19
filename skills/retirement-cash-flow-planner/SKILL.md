@@ -25,7 +25,30 @@ because every downstream tab references the Assumptions tab by cell address.
 
 ## Step 1 — Gather assumptions
 
-Interview the person (or use the numbers they've already given you) for at least:
+**Before building anything, always ask a short upfront clarifying question covering
+household shape and assets — do not infer or default these, even when the person has
+given you enough numbers to technically build a plan.** Specifically confirm:
+
+- **Marital/filing status** — single or married filing jointly? (Changes tax brackets,
+  standard deduction, and whether there's a second Social Security benefit and a
+  second set of account balances to model.)
+- **Dependents** — any, and if so until when do they affect shared expenses/benefits?
+- **Real estate** — any rental or investment properties beyond a primary residence?
+  (Triggers a Properties tab — see `references/workbook-architecture.md`.)
+- **Other assets** — anything outside retirement/brokerage accounts worth including,
+  e.g. gold or other precious metals, a business interest, a pension, cryptocurrency,
+  collectibles? These don't all need their own tab, but should at least be captured on
+  Net Worth so the total picture isn't understated.
+
+Ask this as one compact question up front (e.g. "Quick check before I build this —
+are you married or single for tax purposes, any dependents, and do you hold any real
+estate, gold/other assets, or a pension beyond what you've mentioned?") rather than
+proceeding on a single-filer/no-other-assets assumption just because the person didn't
+volunteer it. A demo-style prompt that only gives a balance and a timeline is exactly
+the case most likely to be missing this — don't treat brevity as license to assume.
+
+Once household shape and assets are confirmed, interview for (or use numbers already
+given for) at least:
 
 - **Personal:** retirement date, both spouses' birth month/year (or single filer),
   dependents and when they age off any shared benefit, life expectancy/planning
@@ -35,7 +58,7 @@ Interview the person (or use the numbers they've already given you) for at least
 - **Expenses:** current monthly living expenses, expected inflation rate, healthcare
   cost by phase (employer → retiree/marketplace → Medicare)
 - **Accounts:** balances and growth-rate assumptions for each 401(k)/403(b)/IRA, HSA,
-  cash savings, and (if relevant) rental or other recurring income
+  cash savings, and (if relevant) rental, other-asset, or recurring income
 - **Roth strategy:** target annual conversion amount and which account to convert first
   (usually the larger or the one with worse RMD exposure)
 - **Tax:** filing status and state — use current-year federal brackets and the
