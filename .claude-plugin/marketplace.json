@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "retirement-cash-flow-planner",
+  "description": "Marketplace for the Retirement Cash Flow Planner plugin — builds a personalized, multi-decade retirement financial plan as an Excel workbook.",
+  "owner": {
+    "name": "mtharshanan",
+    "url": "https://github.com/mtharshanan"
+  },
+  "plugins": [
+    {
+      "name": "retirement-cash-flow-planner",
+      "source": "./",
+      "description": "Build a personalized multi-decade retirement financial plan — phased after-tax cash flow, a Roth conversion strategy, a federal + state tax calculator, and a net worth projection — as an Excel workbook tailored to your own dates, balances, and goals.",
+      "category": "productivity",
+      "author": {
+        "name": "mtharshanan",
+        "url": "https://github.com/mtharshanan"
+      },
+      "homepage": "https://github.com/mtharshanan/retirement-cash-flow-planner"
+    }
+  ]
+}
