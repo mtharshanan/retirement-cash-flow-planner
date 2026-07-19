@@ -1,0 +1,20 @@
+{
+  "name": "retirement-cash-flow-planner",
+  "description": "Build a personalized multi-decade retirement financial plan \u2014 phased after-tax cash flow, a Roth conversion strategy, a tax calculator, and a net worth projection \u2014 as an Excel workbook tailored to your own dates, balances, and goals.",
+  "version": "1.0.0",
+  "author": {
+    "name": "mtharshanan",
+    "url": "https://github.com/mtharshanan"
+  },
+  "homepage": "https://github.com/mtharshanan/retirement-cash-flow-planner",
+  "repository": "https://github.com/mtharshanan/retirement-cash-flow-planner",
+  "license": "MIT",
+  "keywords": [
+    "retirement",
+    "financial-planning",
+    "roth-conversion",
+    "tax-planning",
+    "excel",
+    "cash-flow"
+  ]
+}
