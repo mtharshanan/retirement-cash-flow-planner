@@ -25,27 +25,35 @@ because every downstream tab references the Assumptions tab by cell address.
 
 ## Step 1 — Gather assumptions
 
-**Before building anything, always ask a short upfront clarifying question covering
-household shape and assets — do not infer or default these, even when the person has
-given you enough numbers to technically build a plan.** Specifically confirm:
+**Before building anything, ask ALL four of the following in a single upfront
+message — not just filing status, not split across several turns, and not skipped
+because the person only gave you a balance and a timeline.** Treat this as a fixed
+checklist: every item below must be asked, even if you expect a common answer (e.g.
+"just testing" or "single"). Do not infer or default any of these:
 
-- **Marital/filing status** — single or married filing jointly? (Changes tax brackets,
-  standard deduction, and whether there's a second Social Security benefit and a
-  second set of account balances to model.)
-- **Dependents** — any, and if so until when do they affect shared expenses/benefits?
-- **Real estate** — any rental or investment properties beyond a primary residence?
-  (Triggers a Properties tab — see `references/workbook-architecture.md`.)
-- **Other assets** — anything outside retirement/brokerage accounts worth including,
-  e.g. gold or other precious metals, a business interest, a pension, cryptocurrency,
-  collectibles? These don't all need their own tab, but should at least be captured on
-  Net Worth so the total picture isn't understated.
+1. **Real plan or test/placeholder?** — if it's a real plan, everything below needs
+   their actual numbers; if it's a test, fictional numbers are fine but still ask the
+   remaining three items so the demo reflects what a real user would be asked.
+2. **Marital/filing status** — single or married filing jointly? (Changes tax
+   brackets, standard deduction, and whether there's a second Social Security benefit
+   and a second set of account balances to model.)
+3. **Dependents and real estate** — any dependents (and until when do they affect
+   shared expenses/benefits), and any rental or investment properties beyond a
+   primary residence? (Real estate triggers a Properties tab — see
+   `references/workbook-architecture.md`.)
+4. **Other assets** — anything outside retirement/brokerage accounts worth including,
+   e.g. gold or other precious metals, a business interest, a pension, cryptocurrency,
+   collectibles? These don't all need their own tab, but should at least be captured
+   on Net Worth so the total picture isn't understated.
 
-Ask this as one compact question up front (e.g. "Quick check before I build this —
-are you married or single for tax purposes, any dependents, and do you hold any real
-estate, gold/other assets, or a pension beyond what you've mentioned?") rather than
-proceeding on a single-filer/no-other-assets assumption just because the person didn't
-volunteer it. A demo-style prompt that only gives a balance and a timeline is exactly
-the case most likely to be missing this — don't treat brevity as license to assume.
+Ask all four together, e.g.: "Quick check before I build this — (1) is this a real
+plan or a test run with placeholder numbers, (2) married filing jointly or single,
+(3) any dependents or real estate beyond a primary residence, and (4) any other
+assets like gold, a pension, or a business interest I should include?" **Getting an
+answer to question 1 or 2 is not a reason to stop asking 3 and 4** — a short prompt
+that only gives a balance and a timeline is exactly the case most likely to be
+missing dependents/real estate/other-assets information, and answering the first
+question or two does not waive the rest.
 
 Once household shape and assets are confirmed, interview for (or use numbers already
 given for) at least:
