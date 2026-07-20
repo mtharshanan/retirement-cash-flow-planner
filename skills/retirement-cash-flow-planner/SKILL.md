@@ -25,7 +25,7 @@ because every downstream tab references the Assumptions tab by cell address.
 
 ## Step 1 — Gather assumptions
 
-**Before building anything, ask ALL four of the following in a single upfront
+**Before building anything, ask ALL five of the following in a single upfront
 message — not just filing status, not split across several turns, and not skipped
 because the person only gave you a balance and a timeline.** Treat this as a fixed
 checklist: every item below must be asked, even if you expect a common answer (e.g.
@@ -33,10 +33,13 @@ checklist: every item below must be asked, even if you expect a common answer (e
 
 1. **Real plan or test/placeholder?** — if it's a real plan, everything below needs
    their actual numbers; if it's a test, fictional numbers are fine but still ask the
-   remaining three items so the demo reflects what a real user would be asked.
-2. **Marital/filing status** — single or married filing jointly? (Changes tax
-   brackets, standard deduction, and whether there's a second Social Security benefit
-   and a second set of account balances to model.)
+   remaining items so the demo reflects what a real user would be asked.
+2. **Marital/filing status and state** — single or married filing jointly, and which
+   US state? Both matter a lot: filing status changes federal brackets and the
+   standard deduction; state changes which state tax brackets apply (or none, for a
+   no-income-tax state) and can shift the effective tax rate by several points — don't
+   let state quietly default to the template's example (California) or go unasked
+   just because filing status got answered.
 3. **Dependents and real estate** — any dependents (and until when do they affect
    shared expenses/benefits), and any rental or investment properties beyond a
    primary residence? (Real estate triggers a Properties tab — see
@@ -46,14 +49,17 @@ checklist: every item below must be asked, even if you expect a common answer (e
    collectibles? These don't all need their own tab, but should at least be captured
    on Net Worth so the total picture isn't understated.
 
-Ask all four together, e.g.: "Quick check before I build this — (1) is this a real
-plan or a test run with placeholder numbers, (2) married filing jointly or single,
-(3) any dependents or real estate beyond a primary residence, and (4) any other
-assets like gold, a pension, or a business interest I should include?" **Getting an
-answer to question 1 or 2 is not a reason to stop asking 3 and 4** — a short prompt
-that only gives a balance and a timeline is exactly the case most likely to be
-missing dependents/real estate/other-assets information, and answering the first
-question or two does not waive the rest.
+Ask all of these together, e.g.: "Quick check before I build this — (1) is this a
+real plan or a test run with placeholder numbers, (2) married filing jointly or
+single, and which state, (3) any dependents or real estate beyond a primary
+residence, and (4) any other assets like gold, a pension, or a business interest I
+should include?"
+**Getting an answer to question 1 or 2 is not a reason to stop asking 3 and 4** —
+and getting filing status is not a reason to stop asking for state, since they're
+easy to answer together but easy to silently skip one of if only half of question 2
+gets addressed. A short prompt that only gives a balance and a timeline is exactly
+the case most likely to be missing this information — answering the first question
+or two does not waive the rest.
 
 Once household shape and assets are confirmed, interview for (or use numbers already
 given for) at least:
